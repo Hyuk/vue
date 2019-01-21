@@ -6,6 +6,7 @@
 * v-model
 * v-show
 * v-if, v-else, v-else-if
+* v-for
 
 ## {{ }}
 * html코드를 인코딩하여 표시한다.
@@ -106,3 +107,8 @@ var simple = new Vue({
 ```html
 
 ```
+
+## v-if, v-else-if, v-else
+* 조건에 맞는 코드를 보여준다
+
+## v-for

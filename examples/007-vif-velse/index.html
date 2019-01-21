@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello vue.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+</head>
+<body>
+    <div id="simple">
+        <input type="text" v-model="amount" placeholder="Please enter a number between 0 and 100">
+        <h2 v-if="amount > 90">수</h2>
+        <h2 v-else-if="amount > 80">우</h2>
+        <h2 v-else-if="amount > 70">미</h2>
+        <h2 v-else-if="amount > 60">양</h2>
+        <h2 v-else="amount =< 50">가</h2>
+    </div>
+    <script type="text/javascript">
+    var simple = new Vue({
+        el: '#simple',
+        data: {
+            amount: ''
+        }
+    })
+    </script>
+</body>
+</html>
