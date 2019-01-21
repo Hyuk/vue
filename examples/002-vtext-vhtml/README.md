@@ -1,6 +1,6 @@
-# {}, v-text, v-html 차이점
+# {{}}, v-text, v-html 차이점
 
-* {}와 v-text를 쓸때는 html 코드 <, >를 인코딩해서 나타낸다.
+* {{}}와 v-text를 쓸때는 html 코드 <, >를 인코딩해서 나타낸다.
 * v-html을 쓸때는 html 코드 <, >를 적용해서 나타낸다.
 
 ```html
