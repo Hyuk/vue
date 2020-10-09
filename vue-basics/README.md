@@ -1,4 +1,8 @@
 # Vue Basics
+
+* [Vue plugins](/vue-basics/plugins.md)
+
+###
 * {{ }}
 * v-text
 * v-html

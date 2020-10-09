@@ -1,6 +1,5 @@
 # Vue
 
-* Installation
-* [Vue plugins](https://github.com/Hyuk/Vue/blob/master/plugins.md)
-* [Basics](https://github.com/Hyuk/Vue/blob/master/basics.md)
-* Examples
+* [Vue Basics](https://github.com/Hyuk/Vue/blob/master/view-basics/README.md)
+
+* [Vue Projects](https://github.com/Hyuk/Vue/blob/master/view-projects/README.md)
